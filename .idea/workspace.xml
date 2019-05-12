@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24b28854-ed6f-430a-8fad-fe77b9d20b48" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>owl</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/jade/templates/about.jade" />
+        <option value="$PROJECT_DIR$/app/sass/libs.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_section_one.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_two.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_section_two.sass" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/js/comon.js" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_four.jade" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_five.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_section_five.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_six.jade" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_seven.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_section_seven.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_section_six.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_scripts.jade" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_eight.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_section_four.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_section_eight.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_our_works.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_our_works.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_one.jade" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_nine.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_section_nine.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_footer.jade" />
+        <option value="$PROJECT_DIR$/../nodejs-1st-work-master/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_section_three.jade" />
+        <option value="$PROJECT_DIR$/app/sass/_section_three.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_header.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_head.jade" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_header.jade" />
+        <option value="$PROJECT_DIR$/app/jade/templates/index.jade" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/libs/media.css" />
+        <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_footer.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_general.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_var.sass" />
+        <option value="$PROJECT_DIR$/app/sass/index.sass" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="255" />
+    <option name="y" value="150" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="jade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="jade" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="jade" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="force-farma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="force-farma" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boost/js/script.js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24b28854-ed6f-430a-8fad-fe77b9d20b48" name="Default Changelist" comment="" />
+      <created>1555429306122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555429306122</updated>
+      <workItem from="1555429307539" duration="268000" />
+      <workItem from="1555429620763" duration="733000" />
+      <workItem from="1555430541702" duration="4711000" />
+      <workItem from="1555436021629" duration="157000" />
+      <workItem from="1555697807140" duration="652000" />
+      <workItem from="1555744579546" duration="1303000" />
+      <workItem from="1555746784496" duration="1701000" />
+      <workItem from="1555748569776" duration="801000" />
+      <workItem from="1555749420987" duration="3233000" />
+      <workItem from="1556008128487" duration="1189000" />
+      <workItem from="1556009976783" duration="5746000" />
+      <workItem from="1556032858724" duration="7622000" />
+      <workItem from="1556702608532" duration="360000" />
+      <workItem from="1556703090423" duration="1604000" />
+      <workItem from="1557030924062" duration="7326000" />
+      <workItem from="1557040166740" duration="6074000" />
+      <workItem from="1557117144956" duration="20122000" />
+      <workItem from="1557291507958" duration="15846000" />
+      <workItem from="1557426902201" duration="3370000" />
+      <workItem from="1557463137405" duration="2378000" />
+      <workItem from="1557482341581" duration="9866000" />
+      <workItem from="1557558841171" duration="3802000" />
+      <workItem from="1557566135852" duration="771000" />
+      <workItem from="1557639883811" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="100244000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Gulp" order="3" side_tool="true" />
+      <window_info id="npm" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6497545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.54462934" visible="true" weight="0.44026187" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.45537066" side_tool="true" weight="0.3584288" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Gulp" order="3" side_tool="true" />
+      <window_info id="npm" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.54462934" visible="true" weight="0.17512275" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.45537066" side_tool="true" weight="0.3584288" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/libs.min.css" />
+    <entry file="file://$PROJECT_DIR$/app/js/comon.js" />
+    <entry file="file://$PROJECT_DIR$/../boost/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="750" column="1" selection-start-line="750" selection-start-column="1" selection-end-line="750" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/libs.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boost/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_one.sass" />
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/591283.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/img/pe-7s-look.png" />
+    <entry file="file://$PROJECT_DIR$/../project1.4/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_six.jade" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_five.jade" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_five.sass" />
+    <entry file="file://$PROJECT_DIR$/app/img/pe-7s-joy.png" />
+    <entry file="file://$PROJECT_DIR$/app/img/pe-7s-arc.png" />
+    <entry file="file://$PROJECT_DIR$/app/img/8.png" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_seven.jade" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_six.sass" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_seven.sass" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_eight.jade" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_four.jade" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_eight.sass" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_our_works.jade" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_our_works.sass" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_one.jade" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_nine.jade" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_footer.jade" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_nine.sass" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_four.sass" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_section_three.sass" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_header.sass" />
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_section_three.jade" />
+    <entry file="file://$PROJECT_DIR$/../nodejs-1st-work-master/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boost/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1580">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_head.jade">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_header.jade">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/templates/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/templates/about.jade" />
+    <entry file="file://$PROJECT_DIR$/../test_gulp/app/libs/reset-css/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_var.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_scripts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/libs.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/media.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
