@@ -1,0 +1,68 @@
+body {
+  min-width: 320px; }
+
+.container {
+  max-width: 1500px;
+  padding: 0 20px;
+  width: 100%; }
+
+@font-face {
+  font-family: "robotoslab";
+  src: url("../fonts/robotoslabregular.woff2") format("woff2"), url("../fonts/robotoslabregular.woff") format("woff"), url("../fonts/robotoslabregular.ttf") format("truetype"); }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  border-bottom: 2px solid #383838; }
+  .header .header_wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'robotoslabregular', sans-serif;
+    font-size: 20px; }
+    .header .header_wrapper nav {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+      .header .header_wrapper nav ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .header .header_wrapper nav ul li {
+          padding: -webkit-calc(15px + .5vw);
+          padding: calc(15px + .5vw);
+          position: relative;
+          cursor: pointer; }
+        .header .header_wrapper nav ul:hover {
+          position: relative;
+          color: white;
+          background-color: #3eb5f1; }
+        .header .header_wrapper nav ul a {
+          text-decoration: none;
+          color: black; }
