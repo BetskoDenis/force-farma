@@ -1,25 +1,34 @@
 .header
+  z-index: 10
+  position: fixed
   display: flex
   justify-content: center
   width:  100%
   border-bottom: 2px solid rgba(56, 56, 56, 1)
+  background-color: rgba(255, 255, 255, .9)
+  height: 165px
   .header_wrapper
     display: flex
     flex-wrap: wrap
     justify-content: space-between
     width: 100%
-    background-color: rgba(255, 255, 255, .9)
+
     font-family: 'robotoslabregular', sans-serif
     font-size: 20px
+    a
+      img
+        height: 100%
     .right_header
       display: flex
       flex-wrap: wrap
       nav
         display: flex
         align-items: flex-end
+
         ul
           display: flex
           flex-wrap: wrap
+          transition: all .5s
           li
             padding: calc(15px + .5vw)
             position: relative
@@ -47,37 +56,26 @@
               &:before
                 height: 100%
 
-
-
-                        //&:after
-            //  content: ''
-            //  position: absolute
-            //  top: 0
-            //  right: 0
-            //  bottom: 0
-            //  left: 0
-            //  background-color: $onecolor
           a
             text-decoration: none
             color: rgba(0, 0, 0, 1)
     .lang
       display: flex
-      //flex-wrap: wrap
       align-items: flex-end
       padding-bottom: calc(15px + .5vw)
-      width: 45px
-      overflow: hidden
+
       .ukr
-        display: block
+        transform: translateX(500px)
+        transition: all .5s
+
       .eng
-        display: block
+        transform: translateX(500px)
+        transition: all .7s
+
       a
         text-decoration: none
         font-family: 'robotoslabregular', sans-serif
         color: rgba(0, 0, 0, 1)
-        transition: all .5s
-
-
       a:not(:last-child)
           margin-right: 10px
       .arr
@@ -89,7 +87,13 @@
         margin-bottom: 7px
         cursor: pointer
         transition: all .5s
+        margin-right: 20px
 
+    a
+      display: flex
+      align-items: flex-end
+      img
+        padding-bottom: calc(15px + .5vw)
 
 
 

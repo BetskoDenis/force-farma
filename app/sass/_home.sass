@@ -1,0 +1,49 @@
+.home
+  position: relative
+
+  .slider_wrapper
+    width: 100%
+    .slide
+      display: flex
+      justify-content: center
+      position: relative
+      height: 100%
+      width: 100%
+      img
+        height: 350rem
+        width: 100%
+        object-fit: cover
+        position: relative
+      .content_block
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        display: flex
+        justify-content: flex-end
+        padding-right: calc(15px + 10.26vw)
+        padding-top: calc(15px + 15.26vw)
+        .content_block_item
+          max-width: 600px
+          p
+            font-size: 16px
+            color: rgba(255, 255, 255, 1)
+            max-width: 400px
+
+
+    .owl-dots
+      position: absolute
+      bottom: 40px
+      width: 100%
+      display: flex
+      justify-content: center
+      .owl-dot
+        width: 100px
+        opacity: .6
+        height: 5px
+        background-color: rgba(255, 255, 255, 1)
+      .owl-dot:not(:last-child)
+        margin-right: 20px
+      .owl-dot.active
+        opacity: 1
