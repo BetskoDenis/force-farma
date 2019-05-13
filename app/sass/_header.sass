@@ -11,51 +11,87 @@
     background-color: rgba(255, 255, 255, .9)
     font-family: 'robotoslabregular', sans-serif
     font-size: 20px
-    nav
+    .right_header
       display: flex
-      align-items: flex-end
-      ul
+      flex-wrap: wrap
+      nav
         display: flex
-        flex-wrap: wrap
-        li
-          padding: calc(15px + .5vw)
-          position: relative
-          cursor: pointer
+        align-items: flex-end
+        ul
+          display: flex
+          flex-wrap: wrap
+          li
+            padding: calc(15px + .5vw)
+            position: relative
+            cursor: pointer
 
-          a
-            transition: all .6s
-          &:before
-            content: ''
-            position: absolute
-            //top: 0
-            right: 0
-            bottom: 0
-            left: 0
-            height: 0
-            width: 100%
-            background-color: $onecolor
-            transition: all .5s
-            z-index: 1
-          &:hover
             a
-              color: rgba(255, 255, 255, 1)
-              position: relative
-              z-index: 2
+              transition: all .6s
             &:before
-              height: 100%
+              content: ''
+              position: absolute
+              //top: 0
+              right: 0
+              bottom: 0
+              left: 0
+              height: 0
+              width: 100%
+              background-color: $onecolor
+              transition: all .5s
+              z-index: 1
+            &:hover
+              a
+                color: rgba(255, 255, 255, 1)
+                position: relative
+                z-index: 2
+              &:before
+                height: 100%
 
 
 
-                      //&:after
-          //  content: ''
-          //  position: absolute
-          //  top: 0
-          //  right: 0
-          //  bottom: 0
-          //  left: 0
-          //  background-color: $onecolor
-        a
-          text-decoration: none
-          color: rgba(0, 0, 0, 1)
+                        //&:after
+            //  content: ''
+            //  position: absolute
+            //  top: 0
+            //  right: 0
+            //  bottom: 0
+            //  left: 0
+            //  background-color: $onecolor
+          a
+            text-decoration: none
+            color: rgba(0, 0, 0, 1)
+    .lang
+      display: flex
+      //flex-wrap: wrap
+      align-items: flex-end
+      padding-bottom: calc(15px + .5vw)
+      width: 45px
+      overflow: hidden
+      .ukr
+        display: block
+      .eng
+        display: block
+      a
+        text-decoration: none
+        font-family: 'robotoslabregular', sans-serif
+        color: rgba(0, 0, 0, 1)
+        transition: all .5s
+
+
+      a:not(:last-child)
+          margin-right: 10px
+      .arr
+        height: 10px
+        width: 10px
+        border-right: 4px solid $onecolor
+        border-bottom: 4px solid $onecolor
+        transform: rotate(45deg)
+        margin-bottom: 7px
+        cursor: pointer
+        transition: all .5s
+
+
+
+
 
 
