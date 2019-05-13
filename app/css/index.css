@@ -59,10 +59,29 @@ body {
           padding: calc(15px + .5vw);
           position: relative;
           cursor: pointer; }
-        .header .header_wrapper nav ul:hover {
-          position: relative;
-          color: white;
-          background-color: #3eb5f1; }
+          .header .header_wrapper nav ul li a {
+            -webkit-transition: all .6s;
+            -o-transition: all .6s;
+            transition: all .6s; }
+          .header .header_wrapper nav ul li:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 0;
+            width: 100%;
+            background-color: #3eb5f1;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            z-index: 1; }
+          .header .header_wrapper nav ul li:hover a {
+            color: white;
+            position: relative;
+            z-index: 2; }
+          .header .header_wrapper nav ul li:hover:before {
+            height: 100%; }
         .header .header_wrapper nav ul a {
           text-decoration: none;
           color: black; }

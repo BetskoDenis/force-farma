@@ -20,14 +20,33 @@
         li
           padding: calc(15px + .5vw)
           position: relative
-
           cursor: pointer
 
-        &:hover
-          position: relative
-          color: rgba(255, 255, 255, 1)
-          background-color: $onecolor
-          //&:after
+          a
+            transition: all .6s
+          &:before
+            content: ''
+            position: absolute
+            //top: 0
+            right: 0
+            bottom: 0
+            left: 0
+            height: 0
+            width: 100%
+            background-color: $onecolor
+            transition: all .5s
+            z-index: 1
+          &:hover
+            a
+              color: rgba(255, 255, 255, 1)
+              position: relative
+              z-index: 2
+            &:before
+              height: 100%
+
+
+
+                      //&:after
           //  content: ''
           //  position: absolute
           //  top: 0
