@@ -2,7 +2,7 @@
     .container
         .header_wrapper
             a.logo_top(href='#')
-                img(src='img/logo.png')
+                img.logo_top_img(src='img/logo.png')
             .right_header
                 nav
                     ul
@@ -14,10 +14,12 @@
                             a(href='#') Фармаконадзор
                         li
                             a(href='#') Контакты
-                .lang
+
+                .lang_wrapper
                     a.langclass.rus(href='#') RUS
                     a.langclass.ukr(href='#') UKR
                     a.langclass.eng(href='#') ENG
-                    .arr#arrbuttom
-                 a.in(href='#')
+                .arr_block
+                    .arr#arrButton
+                a.in(href='#')
                     img(src='img/in.png')
