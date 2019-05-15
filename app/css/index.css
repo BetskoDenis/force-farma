@@ -164,9 +164,6 @@ h2 {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-flex-wrap: wrap;
-          -ms-flex-wrap: wrap;
-              flex-wrap: wrap;
       -webkit-box-align: end;
       -webkit-align-items: flex-end;
           -ms-flex-align: end;
