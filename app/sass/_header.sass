@@ -7,6 +7,7 @@
   border-bottom: 2px solid rgba(56, 56, 56, 1)
   background-color: rgba(255, 255, 255, .9)
   transition: all .5s
+  max-height: 165px
 
   .header_wrapper
     display: flex
@@ -16,12 +17,65 @@
     height: 100%
     font-family: 'robotoslabregular', sans-serif
     font-size: 20px
+    transition: all .5s
     .logo_top
       height: 100%
+      transition: all .5s
       .logo_top_img
         padding: 5px
         height: 150px
         transition: all .5s
+    .right_header_mini
+      display: none
+      align-items: center
+      position: relative
+
+      .burger_menu
+        cursor: pointer
+        display: flex
+        flex-direction: column
+        height: 100%
+        width: 50px
+        z-index: 10
+        margin-right: 40px
+        justify-content: center
+        span
+          width: 50px
+          height: 5px
+          background-color: $onecolor
+          transition: all .5s
+          transform-origin: 13%
+        span:not(:last-child)
+          margin-bottom: 8px
+      .top_menu_mini
+        transform: translateX(500px)
+        position: absolute
+        bottom: -210px
+        left: -160px
+        width: 300px
+        transition: all .8s
+        ul
+          display: flex
+          flex-direction: column
+          li
+            width: 100%
+            height: 50px
+            background-color: rgba(62, 181, 241, .8)
+            border: 1px solid rgba(0, 0, 0, 1)
+            display: flex
+            justify-content: center
+            align-items: center
+            cursor: pointer
+            transition: all .5s
+            &:hover
+              background-color: rgba(62, 181, 241, 1)
+              a
+                transform: scale(1.1)
+          a
+            text-decoration: none
+            color: rgba(255, 255, 255, 1)
+            transition: all .5s
+
 
     .right_header
       display: flex
@@ -73,15 +127,15 @@
       width: 50px
       overflow: hidden
       .rus
-        display: block
+        display: flex
 
       .ukr
-        //display: none
+        display: flex
         transform: translateX(500px)
         transition: all .5s
 
       .eng
-        //display: none
+        display: flex
         transform: translateX(500px)
         transition: all .7s
 

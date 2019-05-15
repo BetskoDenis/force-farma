@@ -1,0 +1,27 @@
+@media(min-width: 1001px) and (max-width: 1265px){
+    .right_header {
+        padding-top: 2px;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, .9);
+        width: 100%;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 1000px){
+    .right_header {
+        display: none !important;
+    }
+    .right_header_mini{
+        display: flex !important;
+    }
+    .in img{
+        padding-bottom: 0 !important;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 500px){
+    .logo_top_img{
+        height: 50px !important;
+    }
+
+}
