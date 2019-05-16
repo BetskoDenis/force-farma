@@ -16,12 +16,28 @@
     }
     .in img{
         padding-bottom: 0 !important;
+
     }
+    .info_block_wrapper_fix{
+        display: none;
+         }
+    .map_info_block{
+        top: 0 !important;
+    }
+
 }
 
 @media(min-width: 320px) and (max-width: 500px){
     .logo_top_img{
         height: 50px !important;
     }
-
+    .block_item{
+        width: 100% !important;
+    }
+    .block_item__info{
+        width: 100% !important;
+    }
+    .logo_footer{
+        display: none;
+    }
 }

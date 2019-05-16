@@ -162,4 +162,58 @@
         align-items: center
         .block_items__image
           transition: all .5s
+.block_map
+  width: 100%
+  height: 500px
+  background-color: rgba(0, 0, 0, 1)
+  position: relative
+  iframe
+    opacity: .7
+    transition: all .5s
+
+    &:hover
+      opacity: 1
+  .map_info_block
+    //background-color: rgba(0, 0, 0, .5)
+    background: linear-gradient(to right,rgba(53,53,53,.8) 70%,rgba(53,53,53,.7) 80%,rgba(53,53,53,0) 100%)
+    max-width: 800px
+    height: 250px
+    position: absolute
+    left: 0
+    top: calc(50% - 125px)
+    right: 0
+    bottom: 0
+    z-index: 5
+    display: flex
+    .info_block_wrapper_fix
+      height: 100%
+      flex: 1 1 50%
+    .info_block_wrapper
+      flex: 1 1 50%
+      height: 100%
+      width: 100%
+      display: flex
+      flex-wrap: wrap
+      flex-direction: column
+      justify-content: center
+      padding: 0 15px
+
+      .info_block_item
+        display: flex
+
+        img
+          height: 30px
+          width: 30px
+          object-fit: contain
+          margin-right: 15px
+        p
+          font-size: calc(15px + .68vw)
+          color: rgba(255, 255, 255, 1)
+          line-height: 1.5
+          cursor: pointer
+        &:hover
+          p
+            color: $onecolor
+      .info_block_item:not(:last-child)
+        margin-bottom: 20px
 
