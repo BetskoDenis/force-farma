@@ -1,3 +1,7 @@
+*, :before, :after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 body {
   font-size: 14px;
   min-width: 320px; }
@@ -12,12 +16,17 @@ h2 {
 
 .container {
   max-width: 1500px;
-  padding: 0 20px;
-  width: 100%; }
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto; }
 
 @font-face {
-  font-family: "robotoslab";
-  src: url("../fonts/robotoslabregular.woff2") format("woff2"), url("../fonts/robotoslabregular.woff") format("woff"), url("../fonts/robotoslabregular.ttf") format("truetype"); }
+  font-family: "robotoslabregular";
+  src: url("../fonts/robotoslabregular/robotoslabregular.woff2") format("woff2"), url("../fonts/robotoslabregular/robotoslabregular.woff") format("woff"), url("../fonts/robotoslabregular/robotoslabregular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "robotoslablight";
+  src: url("../fonts/robotoslablight/robotoslablight.woff2") format("woff2"), url("../fonts/robotoslablight/robotoslablight.woff") format("woff"), url("../fonts/robotoslablight/robotoslablight.ttf") format("truetype"); }
 
 .header {
   z-index: 10;
@@ -51,7 +60,7 @@ h2 {
             justify-content: space-between;
     width: 100%;
     height: 100%;
-    font-family: 'robotoslabregular', sans-serif;
+    font-family: 'robotoslablight', sans-serif;
     font-size: 20px;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
@@ -164,6 +173,7 @@ h2 {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
+      height: 100%;
       -webkit-box-align: end;
       -webkit-align-items: flex-end;
           -ms-flex-align: end;
@@ -196,7 +206,8 @@ h2 {
             .header .header_wrapper .right_header nav ul li a {
               -webkit-transition: all .6s;
               -o-transition: all .6s;
-              transition: all .6s; }
+              transition: all .6s;
+              font-family: 'robotoslablight', sans-serif; }
             .header .header_wrapper .right_header nav ul li:before {
               content: '';
               position: absolute;
@@ -233,7 +244,7 @@ h2 {
       -webkit-transition: all .5s;
       -o-transition: all .5s;
       transition: all .5s;
-      width: 50px;
+      width: 80px;
       overflow: hidden; }
       .header .header_wrapper .lang_wrapper .rus {
         display: -webkit-box;
@@ -439,24 +450,9 @@ h2 {
   padding-top: -webkit-calc(15px + 3.52vw);
   padding-top: calc(15px + 3.52vw);
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  overflow: hidden; }
   .block_items .container_items__wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    margin: 0 -15px; }
     .block_items .container_items__wrapper .block_items__wrapper {
       display: -webkit-box;
       display: -webkit-flex;
@@ -469,16 +465,21 @@ h2 {
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      margin: 0 auto; }
       .block_items .container_items__wrapper .block_items__wrapper .block_item {
-        margin-right: -webkit-calc(15px + .79vw);
-        margin-right: calc(15px + .79vw);
+        margin-right: 15px;
+        margin-left: 15px;
         margin-bottom: -webkit-calc(15px + .79vw);
         margin-bottom: calc(15px + .79vw);
         position: relative;
         background-color: #353535;
         height: 80px;
-        width: 370px;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 -webkit-calc((100% / 3) - 30px);
+            -ms-flex: 0 1 calc((100% / 3) - 30px);
+                flex: 0 1 calc((100% / 3) - 30px);
+        min-width: 290px;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -570,6 +571,7 @@ h2 {
 
 .block_map {
   width: 100%;
+  overflow: hidden;
   height: 500px;
   background-color: black;
   position: relative; }
@@ -577,7 +579,8 @@ h2 {
     opacity: .7;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
-    transition: all .5s; }
+    transition: all .5s;
+    width: 100%; }
     .block_map iframe:hover {
       opacity: 1; }
   .block_map .map_info_block {

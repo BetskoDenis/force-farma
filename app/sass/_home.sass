@@ -83,24 +83,24 @@
 .block_items
   padding-top: calc(15px + 3.52vw)
   width: 100%
-  display: flex
-  justify-content: center
+  overflow: hidden
   .container_items__wrapper
-    display: flex
-    width: 100%
-    justify-content: center
+    margin: 0 -15px
     .block_items__wrapper
       display: flex
       flex-wrap: wrap
       max-width: 1200px
       justify-content: center
+      margin: 0 auto
       .block_item
-        margin-right: calc(15px + .79vw)
+        margin-right: 15px
+        margin-left: 15px
         margin-bottom: calc(15px + .79vw)
         position: relative
         background-color: rgba(53, 53, 53, 1)
         height: 80px
-        width: 370px
+        flex: 0 1 calc((100% / 3) - 30px)
+        min-width: 290px
         display: flex
         border-radius: 5px
         justify-content: center
@@ -164,13 +164,14 @@
           transition: all .5s
 .block_map
   width: 100%
+  overflow: hidden
   height: 500px
   background-color: rgba(0, 0, 0, 1)
   position: relative
   iframe
     opacity: .7
     transition: all .5s
-
+    width: 100%
     &:hover
       opacity: 1
   .map_info_block
@@ -216,4 +217,3 @@
             color: $onecolor
       .info_block_item:not(:last-child)
         margin-bottom: 20px
-

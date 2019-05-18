@@ -33,7 +33,7 @@ $(function(){
             $('.lang_wrapper').toggleClass('activeWrapper')
 
             if ($('.arr').hasClass('open')){
-                $('.lang_wrapper').css('width', '150px')
+                $('.lang_wrapper').css('width', '200px')
                 $('.rus').css('transform', 'translateX(0px)')
                 $('.rus').css('display', 'flex')
                 $('.ukr').css('transform', 'translateX(0px)')
@@ -44,7 +44,7 @@ $(function(){
                 $('.arr').css('margin-bottom', '2px')
 
             }else {
-                $('.lang_wrapper').css('width', '50px')
+                $('.lang_wrapper').css('width', '80px')
                 $('.rus').css('transform', 'translateX(0px)')
                 $('.rus').css('transition', 'all .5s')
 
