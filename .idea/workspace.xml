@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24b28854-ed6f-430a-8fad-fe77b9d20b48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/jade/includes/_about_company.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/templates/about.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/templates/about_company.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jade/templates/catalog.jade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_about_us.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_catalog_drugs.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/about.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/about_company.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/catalog.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jade/includes/_head.jade" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/includes/_head.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jade/includes/_header.jade" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/includes/_header.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_general.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_general.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/catalog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade" beforeDir="false" afterPath="$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_catalog_drugs.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_catalog_drugs.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="1" />
+                <state relative-caret-position="360">
+                  <caret line="21" column="62" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="62" />
                 </state>
               </provider>
             </entry>
@@ -72,7 +62,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="340">
                   <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
                 </state>
               </provider>
@@ -87,20 +77,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+                <state relative-caret-position="82">
+                  <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_catalog_drugs.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="12" column="4" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="28" />
+                <state relative-caret-position="216">
+                  <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -108,7 +98,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="416">
+                <state relative-caret-position="440">
                   <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                 </state>
               </provider>
@@ -172,10 +162,8 @@
         <option value="$PROJECT_DIR$/app/jade/includes/_home.jade" />
         <option value="$PROJECT_DIR$/app/sass/_footer.sass" />
         <option value="$PROJECT_DIR$/app/jade/includes/_footer.jade" />
-        <option value="$PROJECT_DIR$/app/libs/media.css" />
         <option value="$PROJECT_DIR$/app/sass/_home.sass" />
         <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/_header.sass" />
         <option value="$PROJECT_DIR$/app/jade/templates/about.jade" />
         <option value="$PROJECT_DIR$/app/sass/_general.sass" />
@@ -194,8 +182,10 @@
         <option value="$PROJECT_DIR$/app/jade/includes/_head.jade" />
         <option value="$PROJECT_DIR$/app/jade/includes/_header.jade" />
         <option value="$PROJECT_DIR$/app/sass/catalog.sass" />
-        <option value="$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade" />
+        <option value="$PROJECT_DIR$/app/libs/media.css" />
         <option value="$PROJECT_DIR$/app/sass/_catalog_drugs.sass" />
+        <option value="$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
     </option>
   </component>
@@ -346,16 +336,17 @@
       <workItem from="1558207423979" duration="5345000" />
       <workItem from="1558253873499" duration="3890000" />
       <workItem from="1558276365460" duration="7878000" />
+      <workItem from="1558372309451" duration="9530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214361000" />
+    <option name="totallyTimeSpent" value="223891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49933067" visible="true" weight="0.18532526" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49933067" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -370,7 +361,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.54462934" visible="true" weight="0.17512275" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.54462934" visible="true" weight="0.17512275" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.45537066" side_tool="true" weight="0.3584288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_header.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -534,7 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_about_us.sass" />
     <entry file="file://$PROJECT_DIR$/app/jade/templates/about.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -566,20 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/about_company.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -591,16 +560,7 @@
     <entry file="file://$PROJECT_DIR$/app/css/about.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/erwergerg.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/includes/_about_company.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="639" selection-start-line="35" selection-start-column="639" selection-end-line="35" selection-end-column="639" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/erwergerg.sass" />
     <entry file="file://$PROJECT_DIR$/app/sass/_about_us.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -622,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/includes/_header.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/jade/templates/about_company.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -643,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/catalog.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -657,24 +603,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_about_company.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="700">
+          <caret line="35" column="639" selection-start-line="35" selection-start-column="639" selection-end-line="35" selection-end-column="639" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade">
+    <entry file="file://$PROJECT_DIR$/app/sass/_footer.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/index.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="1" />
+          <caret selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_catalog_drugs.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="216">
+          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jade/includes/_catalog_drugs.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
         </state>
       </provider>
     </entry>
