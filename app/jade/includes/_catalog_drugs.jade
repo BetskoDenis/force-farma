@@ -1,27 +1,134 @@
-.catalog
+.catalog_menu
     .container
-        h2 Каталог препаратов
-        nav.catalog_wrapper
-            ul.catalog_block
-                li.catalog_block_item
-                    a.block_item(href='#') Вся продукция
-                li.catalog_block_item#catalog_block_item_two
-                    a.block_item(href='#') По системе использования
-                    .arrow.one
-                    ul.mini_menu_one
-                        li.mini_menu_one_item
-                            a(href='#') Все
-                        li.mini_menu_one_item
-                            a(href='#') Кардиология
-                        li.mini_menu_one_item
-                            a(href='#') Педриатрия
-                        li.mini_menu_one_item
-                            a(href='#') Гастроенторология
-                        li.mini_menu_one_item
-                            a(href='#') Терапия
-                li.catalog_block_item#catalog_block_item_three
-                    a.block_item(href='#') По действию
-                    .arrow.two
-                li.catalog_block_item
-                    a.block_item(href='#') Фармаконадзор
+        .catalog_menu_wrapper
+            h2 Каталог препаратов
+            nav.catalog_wrapper
+                ul.catalog_block
+                    li.catalog_block_item
+                        a.block_item(href='#') Вся продукция
+                    li.catalog_block_item#catalog_block_item_two
+                        a.block_item(href='#') По системе использования
+                        .arrow.one
+                        ul.mini_menu_one
+                            li.mini_menu_one_item
+                                a(href='#') Все
+                            li.mini_menu_one_item
+                                a(href='#') Кардиология
+                            li.mini_menu_one_item
+                                a(href='#') Педриатрия
+                            li.mini_menu_one_item
+                                a(href='#') Гастроенторология
+                            li.mini_menu_one_item
+                                a(href='#') Терапия
+                    li.catalog_block_item#catalog_block_item_three
+                        a.block_item(href='#') По действию
+                        .arrow.two
+                        ul.mini_menu_two
+                            li.mini_menu_two_item
+                                a(href='#') Все
+                            li.mini_menu_two_item
+                                a(href='#') Кардиология
+                            li.mini_menu_two_item
+                                a(href='#') Педриатрия
+                            li.mini_menu_two_item
+                                a(href='#') Гастроенторология
+                            li.mini_menu_two_item
+                                a(href='#') Терапия
+                    li.catalog_block_item
+                        a.block_item(href='#') Фармаконадзор
+            .letter_wrapper
+                a(href='#') Все
+                a(href='#') L
+                a(href='#') А
+                a(href='#') Б
+                a(href='#') В
+                a(href='#') Г
+                a(href='#') Д
+                a(href='#') Е
+                a(href='#') Ж
+                a(href='#') З
+                a(href='#') И
+                a(href='#') К
+                a(href='#') Л
+                a(href='#') Ь
 
+.catalog_item_block
+    .container
+        .catalog_line_head
+            a(href='home.html') Главная
+            p  / Каталог препаратов
+        .catalog_item_wrapper
+            mixin catalog_item
+                .catalog_item
+                    img(src='img/14363441210_cmszoom_width_320.png')
+                    .catalog_item_txt
+                        h6 L-cet сироп
+                        p
+                            span Производитель:
+                            | Lorem Ipsum
+                            | Симптоматическое лечение аллергических ринитов,
+                            | в том числе круглогодичных аллергических ринитов;
+                            | Хроническая идеопатическая...
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+            +catalog_item
+
+
+.number_wrapper
+    a(href='#') 1
+    a(href='#') 2
+    a(href='#') 3
+    a(href='#') 4
+    a(href='#') 5
+    a(href='#') ...
+    a(href='#') 99
+.block_items
+    .container
+        .container_items__wrapper
+            .block_items__wrapper
+                .block_item
+                    .block_item__info
+                        span Нервная система
+                    .image_item
+                        img.block_items__image(src='img/Forma 1.png')
+                .block_item
+                    .block_item__info
+                        span Костно мышечная система
+                    .image_item
+                        img.block_items__image(src='img/Forma 3.png')
+                .block_item
+                    .block_item__info
+                        span Офтальмология
+                    .image_item
+                        img.block_items__image(src='img/Forma 2.png')
+                .block_item
+                    .block_item__info
+                        span Противопростудные
+                    .image_item
+                        img.block_items__image(src='img/L0001.png')
+                .block_item
+                    .block_item__info
+                        span Аллергия
+                    .image_item
+                        img.block_items__image(src='img/Forma 4.png')
+                .block_item
+                    .block_item__info
+                        span Онкология
+                    .image_item
+                        img.block_items__image(src='img/category_icon_6.png')
+                .block_item
+                    .block_item__info
+                        span Дезинфицирующие средства
+                    .image_item
+                        img.block_items__image(src='img/Forma 5.png')
+.attention
+    p Самолечение может быть вредным для вашего здоровья

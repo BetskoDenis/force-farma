@@ -542,14 +542,14 @@ h2 {
             top: 30px;
             right: 0;
             bottom: 0;
-            left: 500px;
+            left: 150%;
             -webkit-transition: all .5s;
             -o-transition: all .5s;
             transition: all .5s; }
         .block_items .container_items__wrapper .block_items__wrapper .block_item:hover .block_item__info:before {
           width: 0; }
         .block_items .container_items__wrapper .block_items__wrapper .block_item:hover .block_item__info:after {
-          left: 330px; }
+          left: 110%; }
         .block_items .container_items__wrapper .block_items__wrapper .block_item:hover .block_items__image {
           opacity: 0; }
       .block_items .container_items__wrapper .block_items__wrapper .image_item {

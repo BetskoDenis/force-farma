@@ -90,28 +90,52 @@ $(function() {
     })
 
     $('#catalog_block_item_two').on('click', function () {
+        if($('.arrow.two').hasClass('openMenu')){
+            $('.arrow.two').css('transform', 'rotate(135deg)')
+            $('.mini_menu_two').css('transform', 'scale(0)')
+            $('.arrow.two').toggleClass('openMenu')}
+
 
         $('.arrow.one').toggleClass('openMenu')
-        if ($('.arrow.one').hasClass('openMenu')) {
-            $('.arrow.one').css('transform', 'rotate(-45deg)')
-            $('.mini_menu_one').css('transform', 'scale(1)')
+            if ($('.arrow.one').hasClass('openMenu')) {
+                $('.arrow.one').css('transform', 'rotate(-45deg)')
+                $('.mini_menu_one').css('transform', 'scale(1)')
 
-        } else {
-            $('.arrow.one').css('transform', 'rotate(135deg)')
-            $('.mini_menu_one').css('transform', 'scale(0)')
-        }
+            }
+        else {
+                $('.arrow.one').css('transform', 'rotate(135deg)')
+                $('.mini_menu_one').css('transform', 'scale(0)')
+            }
+
+
+
+
+
 
     })
     $('#catalog_block_item_three').on('click', function () {
-
+        if($('.arrow.one').hasClass('openMenu')) {
+            $('.arrow.one').css('transform', 'rotate(135deg)')
+            $('.mini_menu_one').css('transform', 'scale(0)')
+            $('.arrow.one').toggleClass('openMenu')
+        }
         $('.arrow.two').toggleClass('openMenu')
         if ($('.arrow.two').hasClass('openMenu')) {
             $('.arrow.two').css('transform', 'rotate(-45deg)')
-            $('.mini_menu_one').css('transform', 'scale(1)')
+            $('.mini_menu_two').css('transform', 'scale(1)')
 
         } else {
             $('.arrow.two').css('transform', 'rotate(135deg)')
-            $('.mini_menu_one').css('transform', 'scale(0)')
+            $('.mini_menu_two').css('transform', 'scale(0)')
         }
     })
+    // $(window).click(function () {
+    //     if($('.arrow.one').hasClass('openMenu')) {
+    //         $('.arrow.one').css('transform', 'rotate(135deg)')
+    //         $('.mini_menu_one').css('transform', 'scale(0)')
+    //     }
+    //     if($('.arrow.two').hasClass('openMenu')){
+    //         $('.arrow.two').css('transform', 'rotate(135deg)')
+    //         $('.mini_menu_two').css('transform', 'scale(0)')}
+    // })
 })
