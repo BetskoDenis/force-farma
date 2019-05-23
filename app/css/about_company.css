@@ -429,7 +429,8 @@ h2 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  background-color: #eeeeee; }
   .section_footer .container_footer {
     max-width: 1200px;
     display: -webkit-box;
