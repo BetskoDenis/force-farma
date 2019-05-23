@@ -12,7 +12,12 @@ h2 {
   color: white;
   text-transform: uppercase;
   margin-bottom: -webkit-calc(15px + 2.63vw);
-  margin-bottom: calc(15px + 2.63vw); }
+  margin-bottom: calc(15px + 2.63vw);
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-family: 'robotoslablight', sans-serif;
+  font-weight: bold; }
 
 .container {
   max-width: 1500px;
