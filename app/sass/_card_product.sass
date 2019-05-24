@@ -1,35 +1,12 @@
-.catalog_menu
-  position: relative
-  height: 600px
-  width: 100%
-  z-index: 1
-
-
-  &:before
-    content: ''
-    position: absolute
-    top: 0
-    right: 0
-    bottom: 0
-    left: 0
-    background-image: url("../img/catalog_img.png")
-    //background-size: cover
-    background-position: top center
-    background-attachment: fixed
-    z-index: 2
-  .catalog_menu_wrapper
+.container
+  .catalog_card_wrapper
+    padding: calc(20px + 11.98vw) 0 15px 0
     z-index: 3
     position: relative
     width: 100%
     display: flex
     flex-wrap: wrap
-    padding: calc(70px + 9vw) 0 15px 0
-    h2
-      text-align: center
-      text-transform: uppercase
-      position: relative
-      width: 100%
-      text-align: center
+    border-bottom: 1px solid rgba(0, 0, 0, 1)
     .catalog_wrapper
       width: 100%
       height: 100%
@@ -57,6 +34,8 @@
           transition: all .5s
           &:hover
             background-color: rgba(62, 181, 241, .8)
+            a
+              color: rgba(255, 255, 255, 1)
           .mini_menu_one
             position: absolute
             top: 75px
@@ -83,9 +62,9 @@
             top: 75px
             width: 270px
             margin-bottom: 0
-            z-index: 9999
             transform: scale(0)
             transition: all .5s
+            z-index: 9999
             .mini_menu_two_item
               width: 270px
               background-color: rgba(53, 53, 53, 1)
@@ -102,12 +81,12 @@
           .arrow
             width: 15px
             height: 15px
-            border-top: 2px solid rgba(255, 255, 255, 1)
-            border-right: 2px solid rgba(255, 255, 255, 1)
+            border-top: 2px solid rgba(0, 0, 0, 1)
+            border-right: 2px solid rgba(0, 0, 0, 1)
             transform: rotate(135deg)
             transition: all .5s
           .block_item
-            color: rgba(255, 255, 255, 1)
+            color: rgba(0, 0, 0, 1)
             font-family: 'robotoslablight', sans-serif
             font-size: 20px
             z-index: 8
@@ -118,67 +97,63 @@
             border: 1px solid rgba(255, 0, 0, 1)
             &:hover
               background-color: rgba(255, 0, 0, .7)
-    .letter_wrapper
-      position: relative
-      z-index: 5
-      padding: calc(10px + 1.5vw)
-      a
-        text-decoration: none
-        color: rgba(255, 255, 255, 1)
-        font-family: 'robotoslablight', sans-serif
-        margin-right: 10px
-        font-size: calc(10px + .66vw)
-        &:hover
-          color: rgba(0, 0, 190, 1)
-.catalog_item_block
-  width: 100%
-  .catalog_line_head
-    display: flex
-  .catalog_item_wrapper
+              a
+                color: rgba(255, 255, 255, 1)
+  .product__wrapper
     display: flex
     flex-wrap: wrap
-    .catalog_item
-      flex: 1 1 320px
+    justify-content: center
+    margin-bottom: calc(15px + 1.3vw)
+    img
+      width: 300px
+      height: 400px
+      object-fit: cover
+      margin-right: calc(15px + 1.04vw)
+    .product_txt_block
+      margin-left: calc(15px + 1.04vw)
+
+      h3
+        font-size: 36px
+        font-family: 'robotoslablight', sans-serif
+        color: rgba(0, 0, 0, 1)
+        font-weight: bold
+        margin-bottom: 15px
+      .product_txt_block_item
+        border-top: 1px solid rgba(0, 0, 0, 1)
+        border-bottom: 1px solid rgba(0, 0, 0, 1)
+        padding: calc(15px + .78vw) 0
+        line-height: 2
+        font-size: 18px
+        max-width: 780px
+        span
+          font-weight: bold
+  .button_pdf
+    width: 100%
+    display: flex
+    justify-content: center
+    .pdf
+      display: flex
+      justify-content: space-around
+      align-items: center
+      width: 220px
+      height: 50px
+      border: 1px solid rgba(0, 0, 0, 1)
+      border-radius: 5px
+      padding: 5px 15px
+      cursor: pointer
+      transition: all .5s
+      img
+        height: 100%
+        width: 100%
+        object-fit: contain
+        margin-left: 10px
       a
+        font-size: 20px
+        font-family: 'robotoslablight', sans-serif
         text-decoration: none
-        border: 1px solid $onecolor
-        margin: 15px
-        display: flex
-        align-items: center
-        cursor: pointer
-        transition: all .5s
-        img
-          margin-right: 20px
-          padding: 5px
-        .catalog_item_txt
-          h6
-            font-size: 18px
-            font-weight: bold
-            font-family: 'robotoslablight', sans-serif
-            margin-bottom: 10px
-          p
-            font-size: 12px
-            font-family: 'robotoslablight', sans-serif
-            line-height: 1.5
-          span
-            font-weight: bold
-        &:hover
-          transform: scale(1.05)
-          box-shadow: 0 0 10px rgba(0, 0, 0, .5)
-.number_wrapper
-  display: flex
-  width: 100%
-  justify-content: center
-  margin-right: 20px
-  padding: calc(15px + 1.88vw)
-  a
-    margin-right: 20px
-    text-decoration: none
-.attention
-  background-color: rgba(53, 53, 53, 1)
-  p
-    font-size: calc(15px + 2vw)
-    color: rgba(255, 255, 255, 1)
-    padding: 15px 0
-    font-family: 'robotoslablight', sans-serif
-    text-align: center
+        margin-right: 10px
+        color: rgba(0, 0, 0, 1)
+      &:hover
+        background-color: rgba(0, 0, 0, .1)
+        transform: scale(1.05)
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1)
