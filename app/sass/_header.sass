@@ -103,97 +103,97 @@
         &:not(:last-child)
           margin-right: calc(10px + .52vw)
 
-    .right_header
-      display: flex
-      height: 100%
+  .right_header
+    display: flex
+    height: 100%
 
+    align-items: flex-end
+
+    nav
+      display: flex
       align-items: flex-end
 
-      nav
+      ul
         display: flex
-        align-items: flex-end
-
-        ul
-          display: flex
-          flex-wrap: wrap
-          transition: all .5s
-          li
-            padding: calc(15px + .5vw)
-            position: relative
-            cursor: pointer
-
-            a
-              transition: all .6s
-              font-family: 'robotoslablight', sans-serif
-            &:before
-              content: ''
-              position: absolute
-              right: 0
-              bottom: 0
-              left: 0
-              height: 0
-              width: 100%
-              background-color: $onecolor
-              transition: all .5s
-              z-index: 1
-            &:hover
-              a
-                color: rgba(255, 255, 255, 1)
-                position: relative
-                z-index: 2
-              &:before
-                height: 100%
+        flex-wrap: wrap
+        transition: all .5s
+        li
+          padding: calc(15px + .5vw)
+          position: relative
+          cursor: pointer
 
           a
-            text-decoration: none
-            color: rgba(0, 0, 0, 1)
-    .lang_wrapper
+            transition: all .6s
+            font-family: 'robotoslablight', sans-serif
+          &:before
+            content: ''
+            position: absolute
+            right: 0
+            bottom: 0
+            left: 0
+            height: 0
+            width: 100%
+            background-color: $onecolor
+            transition: all .5s
+            z-index: 1
+          &:hover
+            a
+              color: rgba(255, 255, 255, 1)
+              position: relative
+              z-index: 2
+            &:before
+              height: 100%
+
+        a
+          text-decoration: none
+          color: rgba(0, 0, 0, 1)
+  .lang_wrapper
+    display: flex
+    align-items: flex-end
+    padding: calc(15px + .5vw)
+    transition: all .5s
+    width: 80px
+    overflow: hidden
+    .rus
       display: flex
-      align-items: flex-end
-      padding: calc(15px + .5vw)
+
+    .ukr
+      display: flex
+      transform: translateX(500px)
       transition: all .5s
-      width: 80px
-      overflow: hidden
-      .rus
-        display: flex
 
-      .ukr
-        display: flex
-        transform: translateX(500px)
-        transition: all .5s
-
-      .eng
-        display: flex
-        transform: translateX(500px)
-        transition: all .7s
-
-      a
-        text-decoration: none
-        font-family: 'robotoslabregular', sans-serif
-        color: rgba(0, 0, 0, 1)
-      a:not(:last-child)
-          margin-right: 10px
-    .arr_block
-      height: 100%
+    .eng
       display: flex
-      align-items: flex-end
+      transform: translateX(500px)
+      transition: all .7s
+
+    a
+      text-decoration: none
+      font-family: 'robotoslabregular', sans-serif
+      color: rgba(0, 0, 0, 1)
+    a:not(:last-child)
+        margin-right: 10px
+  .arr_block
+    height: 100%
+    display: flex
+    align-items: flex-end
+    padding-bottom: calc(15px + .5vw)
+    .arr
+      height: 10px
+      width: 10px
+      border-right: 4px solid $onecolor
+      border-bottom: 4px solid $onecolor
+      transform: rotate(45deg)
+      margin-bottom: 7px
+      cursor: pointer
+      transition: all .5s
+      margin-right: 20px
+
+  .in
+    display: flex
+    align-items: flex-end
+    img
       padding-bottom: calc(15px + .5vw)
-      .arr
-        height: 10px
-        width: 10px
-        border-right: 4px solid $onecolor
-        border-bottom: 4px solid $onecolor
-        transform: rotate(45deg)
-        margin-bottom: 7px
-        cursor: pointer
-        transition: all .5s
-        margin-right: 20px
-
-    .in
-      display: flex
-      align-items: flex-end
-      img
-        padding-bottom: calc(15px + .5vw)
 
 
 
