@@ -75,37 +75,56 @@ $(function() {
     });
     $('.burger_menu').on('click', function () {
         var widthSpan = $('.burger_span_two').css('width');
+        var widthWindow = $('body').css('width');
+
+        // if('450px' <= widthWindow <= '1085px' && widthSpan == '0px'){
+        //     alert(widthWindow)
+        //     $('.top_menu_medium').css('transform','translateY(-500px)')
+        //     $('.burger_span_two').css('width', '50px')
+        //     $('.burger_span_one').css('transform', '')
+        //     $('.burger_span_three').css('transform', '')
+        //
+        // }else
+        // if('450px' <= widthWindow <= '1085px' && widthSpan == '50px') {
+        //     alert('jkrhvio')
+        //     $('.top_menu_medium').css('transform', 'translateY(0)')
+        //     $('.burger_span_two').css('width', '0')
+        //     $('.burger_span_one').css('transform', 'rotate(45deg)')
+        //     $('.burger_span_three').css('transform', 'rotate(-45deg)')
+        // }else{
+        //     alert('kakaya-to hernya')
+        // }
         if (widthSpan == '0px') {
-            $('.burger_span_two').css('width', '50px')
-            $('.burger_span_one').css('transform', '')
-            $('.burger_span_three').css('transform', '')
-            $('.top_menu_mini').css('transform', 'translateX(500px)')
-        } else {
-            $('.burger_span_two').css('width', '0')
-            $('.burger_span_one').css('transform', 'rotate(45deg)')
-            $('.burger_span_three').css('transform', 'rotate(-45deg)')
-            $('.top_menu_mini').css('transform', 'translateX(0px)')
+                    $('.burger_span_two').css('width', '50px')
+                    $('.burger_span_one').css('transform', '')
+                    $('.burger_span_three').css('transform', '')
+                    $('.top_menu_mini').css('transform', 'translateX(500px)')
+                } else {
+                    $('.burger_span_two').css('width', '0')
+                    $('.burger_span_one').css('transform', 'rotate(45deg)')
+                    $('.burger_span_three').css('transform', 'rotate(-45deg)')
+                    $('.top_menu_mini').css('transform', 'translateX(0px)')
 
-        }
-    })
+                }
+          })
 
-    $('#catalog_block_item_two').on('click', function () {
-        if($('.arrow.two').hasClass('openMenu')){
-            $('.arrow.two').css('transform', 'rotate(135deg)')
-            $('.mini_menu_two').css('transform', 'scale(0)')
-            $('.arrow.two').toggleClass('openMenu')}
+            $('#catalog_block_item_two').on('click', function () {
+                if($('.arrow.two').hasClass('openMenu')){
+                    $('.arrow.two').css('transform', 'rotate(135deg)')
+                    $('.mini_menu_two').css('transform', 'scale(0)')
+                    $('.arrow.two').toggleClass('openMenu')}
 
 
-        $('.arrow.one').toggleClass('openMenu')
-            if ($('.arrow.one').hasClass('openMenu')) {
-                $('.arrow.one').css('transform', 'rotate(-45deg)')
-                $('.mini_menu_one').css('transform', 'scale(1)')
+                $('.arrow.one').toggleClass('openMenu')
+                    if ($('.arrow.one').hasClass('openMenu')) {
+                        $('.arrow.one').css('transform', 'rotate(-45deg)')
+                        $('.mini_menu_one').css('transform', 'scale(1)')
 
-            }
-        else {
-                $('.arrow.one').css('transform', 'rotate(135deg)')
-                $('.mini_menu_one').css('transform', 'scale(0)')
-            }
+                    }
+                else {
+                        $('.arrow.one').css('transform', 'rotate(135deg)')
+                        $('.mini_menu_one').css('transform', 'scale(0)')
+                    }
 
 
 
