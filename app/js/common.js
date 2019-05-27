@@ -75,31 +75,29 @@ $(function() {
     });
     $('.burger_menu').on('click', function () {
         var widthSpan = $('.burger_span_two').css('width');
-        var widthWindow = $('body').css('width');
+        var widthWindow = $(window).width();
 
-        // if('450px' <= widthWindow <= '1085px' && widthSpan == '0px'){
-        //     alert(widthWindow)
-        //     $('.top_menu_medium').css('transform','translateY(-500px)')
-        //     $('.burger_span_two').css('width', '50px')
-        //     $('.burger_span_one').css('transform', '')
-        //     $('.burger_span_three').css('transform', '')
-        //
-        // }else
-        // if('450px' <= widthWindow <= '1085px' && widthSpan == '50px') {
-        //     alert('jkrhvio')
-        //     $('.top_menu_medium').css('transform', 'translateY(0)')
-        //     $('.burger_span_two').css('width', '0')
-        //     $('.burger_span_one').css('transform', 'rotate(45deg)')
-        //     $('.burger_span_three').css('transform', 'rotate(-45deg)')
-        // }else{
-        //     alert('kakaya-to hernya')
-        // }
-        if (widthSpan == '0px') {
+        if(widthWindow >= 450 && widthWindow <= 1085 && widthSpan == '0px'){
+
+            $('.top_menu_medium').css('transform','translateY(-500px)')
+            $('.burger_span_two').css('width', '50px')
+            $('.burger_span_one').css('transform', '')
+            $('.burger_span_three').css('transform', '')
+
+        }else
+        if(widthWindow >= 450 && widthWindow <= 1085 && widthSpan == '50px' ) {
+
+            $('.top_menu_medium').css('transform', 'translateY(0)')
+            $('.burger_span_two').css('width', '0')
+            $('.burger_span_one').css('transform', 'rotate(45deg)')
+            $('.burger_span_three').css('transform', 'rotate(-45deg)')
+        }
+        if (widthWindow < 450 && widthSpan == '0px') {
                     $('.burger_span_two').css('width', '50px')
                     $('.burger_span_one').css('transform', '')
                     $('.burger_span_three').css('transform', '')
                     $('.top_menu_mini').css('transform', 'translateX(500px)')
-                } else {
+                } if (widthWindow <= 450 && widthSpan == '50px') {
                     $('.burger_span_two').css('width', '0')
                     $('.burger_span_one').css('transform', 'rotate(45deg)')
                     $('.burger_span_three').css('transform', 'rotate(-45deg)')
