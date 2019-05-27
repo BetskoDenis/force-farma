@@ -77,7 +77,7 @@ $(function() {
         var widthSpan = $('.burger_span_two').css('width');
         var widthWindow = $(window).width();
 
-        if(widthWindow >= 450 && widthWindow <= 1085 && widthSpan == '0px'){
+        if(widthWindow >= 450 && widthWindow <= 1300 && widthSpan == '0px'){
 
             $('.top_menu_medium').css('transform','translateY(-500px)')
             $('.burger_span_two').css('width', '50px')
@@ -85,7 +85,7 @@ $(function() {
             $('.burger_span_three').css('transform', '')
 
         }else
-        if(widthWindow >= 450 && widthWindow <= 1085 && widthSpan == '50px' ) {
+        if(widthWindow >= 450 && widthWindow <= 1300 && widthSpan == '50px' ) {
 
             $('.top_menu_medium').css('transform', 'translateY(0)')
             $('.burger_span_two').css('width', '0')
